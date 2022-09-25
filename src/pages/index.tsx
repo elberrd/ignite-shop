@@ -14,6 +14,7 @@ const Home: NextPage = () => {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
     slides: {
       perView: 3,
+      spacing: 48,
     },
   });
   return (
